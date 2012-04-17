@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEFFA8AC152D111600447C1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFFA8AB152D111600447C1C /* UIKit.framework */; };
+		BEFFA8AE152D111600447C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFFA8AD152D111600447C1C /* Foundation.framework */; };
+		BEFFA8B0152D111600447C1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFFA8AF152D111600447C1C /* CoreGraphics.framework */; };
+		BEFFA8B6152D111600447C1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEFFA8B4152D111600447C1C /* InfoPlist.strings */; };
+		BEFFA8B8152D111600447C1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFFA8B7152D111600447C1C /* main.m */; };
+		BEFFA8BC152D111600447C1C /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFFA8BB152D111600447C1C /* SRAppDelegate.m */; };
+		BEFFA8BF152D111600447C1C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFFA8BD152D111600447C1C /* MainStoryboard.storyboard */; };
+		BEFFA8C2152D111600447C1C /* SRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFFA8C1152D111600447C1C /* SRViewController.m */; };
+		BEFFA8C9152D113B00447C1C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFFA8C8152D113B00447C1C /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEFFA8A7152D111600447C1C /* SoundRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFFA8AB152D111600447C1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEFFA8AD152D111600447C1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEFFA8AF152D111600447C1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEFFA8B3152D111600447C1C /* SoundRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundRecorder-Info.plist"; sourceTree = "<group>"; };
+		BEFFA8B5152D111600447C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEFFA8B7152D111600447C1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEFFA8B9152D111600447C1C /* SoundRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		BEFFA8BA152D111600447C1C /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		BEFFA8BB152D111600447C1C /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		BEFFA8BE152D111600447C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BEFFA8C0152D111600447C1C /* SRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRViewController.h; sourceTree = "<group>"; };
+		BEFFA8C1152D111600447C1C /* SRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRViewController.m; sourceTree = "<group>"; };
+		BEFFA8C8152D113B00447C1C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFFA8A4152D111600447C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFFA8C9152D113B00447C1C /* AVFoundation.framework in Frameworks */,
+				BEFFA8AC152D111600447C1C /* UIKit.framework in Frameworks */,
+				BEFFA8AE152D111600447C1C /* Foundation.framework in Frameworks */,
+				BEFFA8B0152D111600447C1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEFFA89C152D111500447C1C = {
+			isa = PBXGroup;
+			children = (
+				BEFFA8C8152D113B00447C1C /* AVFoundation.framework */,
+				BEFFA8B1152D111600447C1C /* SoundRecorder */,
+				BEFFA8AA152D111600447C1C /* Frameworks */,
+				BEFFA8A8152D111600447C1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFFA8A8152D111600447C1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFFA8A7152D111600447C1C /* SoundRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFFA8AA152D111600447C1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEFFA8AB152D111600447C1C /* UIKit.framework */,
+				BEFFA8AD152D111600447C1C /* Foundation.framework */,
+				BEFFA8AF152D111600447C1C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEFFA8B1152D111600447C1C /* SoundRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				BEFFA8BA152D111600447C1C /* SRAppDelegate.h */,
+				BEFFA8BB152D111600447C1C /* SRAppDelegate.m */,
+				BEFFA8BD152D111600447C1C /* MainStoryboard.storyboard */,
+				BEFFA8C0152D111600447C1C /* SRViewController.h */,
+				BEFFA8C1152D111600447C1C /* SRViewController.m */,
+				BEFFA8B2152D111600447C1C /* Supporting Files */,
+			);
+			path = SoundRecorder;
+			sourceTree = "<group>";
+		};
+		BEFFA8B2152D111600447C1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFFA8B3152D111600447C1C /* SoundRecorder-Info.plist */,
+				BEFFA8B4152D111600447C1C /* InfoPlist.strings */,
+				BEFFA8B7152D111600447C1C /* main.m */,
+				BEFFA8B9152D111600447C1C /* SoundRecorder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFFA8A6152D111600447C1C /* SoundRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFFA8C5152D111600447C1C /* Build configuration list for PBXNativeTarget "SoundRecorder" */;
+			buildPhases = (
+				BEFFA8A3152D111600447C1C /* Sources */,
+				BEFFA8A4152D111600447C1C /* Frameworks */,
+				BEFFA8A5152D111600447C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundRecorder;
+			productName = SoundRecorder;
+			productReference = BEFFA8A7152D111600447C1C /* SoundRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFFA89E152D111500447C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = ETSU;
+			};
+			buildConfigurationList = BEFFA8A1152D111500447C1C /* Build configuration list for PBXProject "SoundRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEFFA89C152D111500447C1C;
+			productRefGroup = BEFFA8A8152D111600447C1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFFA8A6152D111600447C1C /* SoundRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFFA8A5152D111600447C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFFA8B6152D111600447C1C /* InfoPlist.strings in Resources */,
+				BEFFA8BF152D111600447C1C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFFA8A3152D111600447C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFFA8B8152D111600447C1C /* main.m in Sources */,
+				BEFFA8BC152D111600447C1C /* SRAppDelegate.m in Sources */,
+				BEFFA8C2152D111600447C1C /* SRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEFFA8B4152D111600447C1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFFA8B5152D111600447C1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEFFA8BD152D111600447C1C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFFA8BE152D111600447C1C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEFFA8C3152D111600447C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEFFA8C4152D111600447C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFFA8C6152D111600447C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecorder/SoundRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SoundRecorder/SoundRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEFFA8C7152D111600447C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecorder/SoundRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SoundRecorder/SoundRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFFA8A1152D111500447C1C /* Build configuration list for PBXProject "SoundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFFA8C3152D111600447C1C /* Debug */,
+				BEFFA8C4152D111600447C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFFA8C5152D111600447C1C /* Build configuration list for PBXNativeTarget "SoundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFFA8C6152D111600447C1C /* Debug */,
+				BEFFA8C7152D111600447C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEFFA89E152D111500447C1C /* Project object */;
+}
