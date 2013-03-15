@@ -99,7 +99,7 @@
 
 - (IBAction)startStopRecording:(id)sender 
 {
-    //If the app is note recording, we want to start recording, disable the play button, and make the record button say "STOP"
+    //If the app is not recording, we want to start recording, disable the play button, and make the record button say "STOP"
     if(!self.isRecording)
     {
         self.isRecording = YES;
